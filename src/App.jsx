@@ -1,5 +1,7 @@
+import "./sass/main.scss";
+
 function App() {
-  return <div>Social Links</div>;
+  return <div className="main-title">Social Links</div>;
 }
 
 export default App;
