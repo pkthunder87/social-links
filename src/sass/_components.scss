@@ -12,17 +12,13 @@
 :root {
   // Colors
 
-  --color-brown-800: 14deg, 45%, 36%;
-  --color-rose-50: 330deg, 100%, 98%;
-  --color-rose-800: 332deg, 51%, 32%;
+  --color-green: 75deg, 94%, 57%;
 
-  // Neutrals
-  --color-black: 0deg, 0%, 7%;
-  --color-stone-100: 30deg, 54%, 90%;
-  --color-stone-150: 30deg, 18%, 87%;
-  --color-stone-600: 30deg, 10%, 34%;
-  --color-stone-900: 24deg, 5%, 18%;
   --color-white: 0deg, 0%, 100%;
+
+  --color-grey-700: 0deg, 0%, 20%;
+  --color-grey-800: 0deg, 0%, 12%;
+  --color-grey-900: 0deg, 0%, 8%;
 }
 
 /* =================
@@ -36,7 +32,7 @@
    ============================== */
 
 .main-title {
-  color: hsl(var(--color-rose-800));
+  color: hsl(var(--color-green));
 
   font-size: 5rem;
 }
