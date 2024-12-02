@@ -90,24 +90,6 @@ li::marker {
   font-size: 1.2rem;
 }
 
-/* Balance text wrapping on headings */
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-wrap: balance;
-}
-
-// Matching colors for subheadings and list markers
-h2,
-h4 {
-  font-size: 2.8rem;
-  color: hsl(var(--color-brown-800));
-}
-
 /* Make images easier to work with */
 img,
 picture {

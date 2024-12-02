@@ -31,10 +31,34 @@
    1.0 Phones & Tablets 0 - 900px 
    ============================== */
 
-.main-title {
-  color: hsl(var(--color-green));
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.75rem;
 
-  font-size: 5rem;
+  &__img {
+    margin-block-start: 2.5rem;
+    margin-block-end: 1.5rem;
+    width: 24%;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  &__location {
+    font-size: 1rem;
+    color: hsl(var(--color-green));
+    margin-block-end: 1.5rem;
+  }
+
+  &__text {
+    font-size: 1rem;
+  }
 }
 
 .links-box {
