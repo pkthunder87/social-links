@@ -84,6 +84,7 @@ a:active,
 a:hover {
   color: hsl(var(--color-grey-800));
   background-color: hsl(var(--color-green));
+  cursor: url("./assets/images/icons8-cursor-18.png"), auto;
 }
 
 /* Make images easier to work with */
