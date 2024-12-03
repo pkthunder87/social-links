@@ -44,27 +44,35 @@
    1.2 Layout 
    ============= */
 
-body {
-  margin-inline: 19rem;
+@media (min-width: 400px) {
+  body {
+    margin-inline: 19rem;
+  }
 }
 
 .app-layout {
   &__outer {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
 
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(var(--color-grey-900));
   }
 
   &__inner {
     border-radius: 8px;
-    overflow: hidden;
+    margin: auto 0;
 
-    width: 28%;
-    height: 70%;
     background-color: hsl(var(--color-grey-800));
+    padding-inline: 2.5rem;
+    width: 88%;
+    height: 100%;
+
+    @media (min-width: 400px) {
+      width: 28%;
+      height: 70%;
+    }
   }
 }
