@@ -1,8 +1,8 @@
-function Link({ siteLinks }) {
+function Link({ siteLinks, siteUrl = "https://old.reddit.com/" }) {
   return (
-    <div>
-      <div className="site-links">{siteLinks}</div>
-    </div>
+    <a className="site-links" target="_blank" rel="noreferrer" href={siteUrl}>
+      {siteLinks}
+    </a>
   );
 }
 
