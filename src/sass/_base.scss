@@ -74,14 +74,14 @@ body {
   background-color: hsl(var(--color-grey-1000));
 }
 
-a:link,
-a:visited {
+.site-links:link,
+.site-links:visited {
   text-decoration: none;
   color: hsl(var(--color-white));
 }
 
-a:active,
-a:hover {
+.site-links:active,
+.site-links:hover {
   color: hsl(var(--color-grey-800));
   background-color: hsl(var(--color-green));
   cursor: url("./assets/images/icons8-cursor-18.png"), auto;

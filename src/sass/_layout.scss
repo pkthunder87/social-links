@@ -15,29 +15,17 @@
    ============= */
 
 .attribution {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
 
   text-wrap: balance;
-  margin-block-start: 3rem;
-  margin-block-end: -1.5rem;
-
-  @media (min-width: 600px) {
-    margin-block-start: -2rem;
-    margin-block-end: 3rem;
-    font-size: 1.9rem;
-  }
-
-  @media (min-width: 900px) {
-    margin-block-start: -7rem;
-    margin-block-end: 2.5rem;
-  }
+  margin-block-start: -3rem;
 
   @media (min-width: 1420px) {
   }
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(var(--color-green));
 }
 
 /* =============
