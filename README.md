@@ -15,10 +15,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Built with
 
-- Semantic HTML5 markup
 - Flexbox
 - Grid
 - React
+- SASS
+- Semantic HTML5 markup
 - Vite
 
 ## Author
