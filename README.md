@@ -11,7 +11,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Github Pages](https://pk-recipe-page.netlify.app/)
+- Live Site URL: [Github Pages](https://pk-social-links.netlify.app/)
 
 ### Built with
 
