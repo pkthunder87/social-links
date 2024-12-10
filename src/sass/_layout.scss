@@ -37,12 +37,6 @@
    1.2 Layout 
    ============= */
 
-@media (min-width: 1201px) {
-  body {
-    margin-inline: 19rem;
-  }
-}
-
 .app-layout {
   &__outer {
     display: flex;
@@ -68,11 +62,11 @@
     }
 
     @media (min-width: 701px) {
-      width: 50%;
+      width: 40%;
     }
 
     @media (min-width: 901px) {
-      width: 35%;
+      width: 30%;
       height: 70%;
     }
   }
